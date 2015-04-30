@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinReady.Checker.AppChecker
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinReady.Checker.IISChecker", "WinReady.Checker.IISChecker\WinReady.Checker.IISChecker.csproj", "{DB24DB1E-FC8B-41D2-846D-53C59F723FE7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinReady.Checker.MachineChecker", "WinReady.Checker.MachineChecker\WinReady.Checker.MachineChecker.csproj", "{C73CB0A2-3FCC-4814-BB1A-E34176315D49}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +75,10 @@ Global
 		{DB24DB1E-FC8B-41D2-846D-53C59F723FE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB24DB1E-FC8B-41D2-846D-53C59F723FE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB24DB1E-FC8B-41D2-846D-53C59F723FE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C73CB0A2-3FCC-4814-BB1A-E34176315D49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C73CB0A2-3FCC-4814-BB1A-E34176315D49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C73CB0A2-3FCC-4814-BB1A-E34176315D49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C73CB0A2-3FCC-4814-BB1A-E34176315D49}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -88,5 +94,6 @@ Global
 		{0E210F4E-2607-4E4C-BC08-19F4FB96EBBA} = {DE357AD4-D6AF-4C10-95E6-08607C237CE3}
 		{39CE0B47-6F5C-49A5-AE6B-FD9BCA0443CB} = {DE357AD4-D6AF-4C10-95E6-08607C237CE3}
 		{DB24DB1E-FC8B-41D2-846D-53C59F723FE7} = {DE357AD4-D6AF-4C10-95E6-08607C237CE3}
+		{C73CB0A2-3FCC-4814-BB1A-E34176315D49} = {DE357AD4-D6AF-4C10-95E6-08607C237CE3}
 	EndGlobalSection
 EndGlobal
